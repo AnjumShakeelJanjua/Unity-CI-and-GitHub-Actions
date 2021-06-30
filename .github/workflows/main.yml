@@ -42,9 +42,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: game-ci/unity-test-runner@v2
-        env:
-         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-         projectPath: path/to/your/project
-         githubToken: ${{ secrets.GITHUB_TOKEN }}
+     - name: Unity - Test runner
+       uses: game-ci/unity-test-runner@v2.0-alpha-5
+       env:
+             UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+       with:
+             projectPath: path/to/your/project
+             githubToken: ${{ secrets.GITHUB_TOKEN }}
