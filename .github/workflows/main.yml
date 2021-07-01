@@ -26,4 +26,5 @@ jobs:
        env:
              UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
        with:
-             githubToken: ${{ secrets.GITHUB_TOKEN }}
+             projectPath: -Unity-CI-and-GitHub-Actions
+             githubToken: ${{ secrets.GITHUB_TOKEN }
