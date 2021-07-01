@@ -27,4 +27,4 @@ jobs:
              UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
        with:
              projectPath: -Unity-CI-and-GitHub-Actions
-             githubToken: ${{ secrets.GITHUB_TOKEN }
+             githubToken: ${{ secrets.GITHUB_TOKEN }}
