@@ -26,5 +26,5 @@ jobs:
        env:
              UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
        with:
-             projectPath: Unity-Ci-Cd-Pipeline-Practice
+             projectPath: AnjumShakeelJanjua/Unity-Ci-Cd-Pipeline-Practice
              githubToken: ${{ secrets.GITHUB_TOKEN }}
