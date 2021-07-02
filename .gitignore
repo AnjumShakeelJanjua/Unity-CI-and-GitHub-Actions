@@ -12,7 +12,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-/artifacts
+/[Aa]rtifacts/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
